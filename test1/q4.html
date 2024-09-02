@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quetion4</title>
+    <link href="font/openmoon/remixicon.css" rel="stylesheet"/>
+ 
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color:beige;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px #0000001a;
+}
+
+.img-bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateY(30px) scale(0.5);
+  transform-origin: top;
+}
+
+.img-bx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+.content .detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.content .detail h2 {
+  font-size: 30px;
+  font-weight: bolder;
+ margin-bottom: 5px;
+}
+.content .detail p {
+  color: #444;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.icn {
+  color: #444;
+  position: relative;
+  display: flex;
+  margin-top: 5px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="card">
+        <div class="img-bx">
+          <img src="image/face4.jpg" alt="img" />
+        </div>
+        <div class="content">
+          <div class="detail">
+            <h2>Simon Star</h2>
+                <p>Full Stack Developer</p>
+         <div class="icn">
+
+             <i class="ri-facebook-fill"></i>
+             <i class="ri-instagram-line"></i>
+             <i class="ri-twitter-line"></i>
+             <i class="ri-linkedin-fill"></i>
+            
+          </div>
+        </div>
+      </div> 
+  
+    
+</body>
+</html>
